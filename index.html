@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Samsung Polska - Youtube</title>
+<link rel="stylesheet" href="css/style.css" />
+<link type="text/css" href="css/scrollbar.css" rel="stylesheet" media="screen">
+<!-- style youtube -->
+<link type="text/css" href="css/styleYoutubeChannels.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/styleYoutubeBtn.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/styleTruncate.css" rel="stylesheet" media="screen">
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script>
+	google.load("jquery", "1.7.1");
+</script>
+<script src="js/jquery.tinyscrollbar.min.js"></script>
+<script src="http://swfobject.googlecode.com/svn/trunk/swfobject/swfobject.js"></script>
+<script type="text/javascript" src="js/jquery.jtruncate.js"></script>
+
+<script src="js/Config.js"></script>
+<script src="js/Fb.js"></script>
+<script src="js/EventTarget.js"></script>
+<script src="js/Youtube.js"></script>
+<script src="js/Main.js"></script>
+<script src="js/Menu.js"></script>
+
+</head>
+
+<body>
+<div id="fb-root"></div>
+<div id="wraper-in">
+	<div id="box">
+	
+		<div id="header">
+			<span id="logo-samsung">
+<!--				<a href="http://www.youtube.com/user/samsungpolska" target="_blank"><img src="img/youtube-logo.png" /></a>-->
+                                J.W. Construction
+			</span>
+<!-- 			<p id="user-name"></p> -->
+			<div id="btn-sub" class="enable-fancy-subscribe-button">
+				<a
+					href="http://www.youtube.com/subscription_center?add_user=JWCLifeElevated"
+					type="button"
+					class="yt-subscription-button subscription-button-with-recommended-channels yt-uix-button yt-uix-button-default"
+					data-enable-hovercard="true"
+					data-subscription-value="UCC7Pt4G2JPEj91qOdkc6RSw"
+					data-force-position="" data-position=""
+					data-subscription-feature="channels3"
+					data-subscription-type="channel" role="button"> <img
+					class="yt-uix-button-icon yt-uix-button-icon-subscribe"
+					src="img/btn-sub/pixel-vfl3z5WfW.gif" alt=""> <span
+					class="subscribe-label" id="lan-subscribe">Subscribe</span>
+				</a>
+			</div>
+			<div class="stat-entry">
+				<span id="view-count" class="stat-name"></span>
+				<span class="stat-value" id="lan-top-stat">video display</span>
+			</div>
+			
+			<!-- koniec btn sub -->
+			<div class="channel-horizontal-menu ytg-box">
+				<ul>
+<!-- 				class="selected" -->
+					<li id="btn-polecane">
+						<a href="javascript:userQuery()" class="gh-tab-100" id="lan-btn-featured">featured</a></li>
+<!--					<li>
+ 					http://www.youtube.com/user/samsungpolska/feed 
+						<a href="javascript:samsungVideo.getFeeds('activity')" class="gh-tab-102">Aktywnosc</a>
+					</li>
+					<li id="btn-filmy">
+					<?php //echo "/?state=videos"; ?>
+						<a href="javascript:samsungVideo.getFeeds('videos')" class="gh-tab-101">Filmy </a>
+					</li>
+-->
+				</ul>
+				<form name="channel-search" id="channel-search" action="" method="post">
+					<input name="q" id="lan-user-request" type="text" class="search-field label-input-label"
+						placeholder="Szukaj w kanale" value="" onkeypress="return searchClick(event)">
+					<button class="search-btn" onclick="javascript:userQuery()" type="button">
+						<span class="search-btn-content" id="lan-search"> Search </span>
+					</button>
+					<a class="search-dismiss-btn" href="http://www.youtube.com/user/samsungpolska/videos?view=0">
+						<span class="search-btn-content"> Clear </span>
+					</a>
+				</form>
+			</div><!-- koniec horizontal panel -->
+
+		</div>
+		
+		<div class="clear-fix"></div>
+		
+		<div id="video-box">
+			<div id="playerContainer">
+				<object id="player">
+					<p style="line-height: 300px; height: 100%; font-weight: bold;">loading...</p>
+				</object>
+			</div>
+			<div id="player-desc-wrap">
+				<div id="player-left">
+					<div id="player-title"></div>
+					<p id="player-author"></p>				
+				</div>
+				
+				<div id="player-right">
+					<div id="player-view-count"></div>
+					<div id="like-container"></div>
+					<div id="fb-btn"></div>
+				</div>
+				
+				<p id="player-desc"></p>
+				
+			</div>
+
+			<hr class="linia" />
+			
+			<div id="scrollbar-box">
+				<div class="scrollbar">
+					<div class="track">
+						<div class="thumb">
+							<div class="end"></div>
+						</div>
+					</div>
+				</div>
+				<div class="viewport">
+					<div class="overview">
+						<div id="videos-thumbs"></div>
+					</div>
+				</div>
+			</div>
+			<div class="spacja"></div>
+		</div>
+	</div>
+</div><!-- koniec wraper-in -->
+</body>
+</html>
+
+
+	

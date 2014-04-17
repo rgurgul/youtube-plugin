@@ -1,0 +1,211 @@
+@CHARSET "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	height: auto !important;
+}
+#wraper-top-background
+{
+	background: url(../img/belkaTop.png) no-repeat;
+	margin: 0 auto;
+	width: 660px;
+	padding-top: 23px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+#wraper-bottom-background
+{
+	height: 880px;
+	background: url(../img/belkaBottom1.png) center bottom no-repeat;
+}
+
+.bottomImgAfter
+{
+	background: url(../img/belkaBottom.png) center bottom no-repeat !important;
+}
+
+#wraper-in
+{
+	width: 607px;
+	margin: 0 auto;
+	
+}
+#box {
+	width: 580px;
+	margin: 0 auto;
+	border: 1px solid black;
+	font: 12px Arial;
+	color: white;
+	background: black;
+}
+#header 
+{
+	box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.5);
+	height: 60px;
+	background: #363636;	
+}
+#header *
+{
+	float: left;
+}
+#logo-samsung img
+{
+	width: 260px;
+	padding: 5px;
+}
+
+#header p, #logo-samsung
+{
+	font-size: 20px;
+	line-height: 55px;
+	padding: 0 10px;
+	font-family: impact;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+
+}
+#video-box
+{
+	background: #e6e6e6;
+}
+#playerContainer {
+	width: 560px;
+	height: 315px;
+	padding: 10px 10px 0 10px;
+}
+#player
+{
+	
+}
+#player-desc-wrap
+{
+	color: black;
+	height: 100%;
+	background: white;
+	margin: 0 10px;
+	border-radius: 0 0 5px 5px;
+	padding: 10px 10px 5px 10px;
+	text-align: left;
+	font-size: 10px;
+	color: #888;
+	
+}
+.titlec 
+{	
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 10px;
+		
+}
+.opis 
+{	
+	font-size: 9px;
+	color: #999;
+	padding-top: 10px;
+	height: 85px;
+}
+.clear-fix
+{
+	clear: both;
+}
+.txt-container
+{
+	width: 265px;
+	float: right;
+	padding-right: 7px;
+}
+ul.videos li {
+	height: 144px;
+	margin-bottom: 10px;
+	background: white;
+	position: relative;
+	color: black;
+	text-align: left;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 542px;
+}
+
+ul.videos {
+	
+	list-style: none;
+}
+
+#videos-thumbs {
+	background: #E6E6E6;
+}
+
+.videos img {
+	position:absolute;
+	width: 260px;
+	top: -28px;
+	float: left;
+	clip:rect(28px,260px,171px,0px);
+}
+.linia 
+{
+      border: none;
+      background: #aeaeae;
+      margin: 10px;
+      height: 1px;
+}
+
+footer
+{
+/* 	background: url(../img/belkaBottom.png) no-repeat bottom; */
+/* 	background-size: 100%; */
+/* 	height: 44px; */
+}
+#player-left
+{
+	color: #333333;
+	width: 100%;
+	display:table-cell;
+	font-weight: bold;
+	font-size: 12px;
+	
+}
+#player-right
+{
+	display:table-cell ;
+	text-align: right;
+}
+#player-view-count
+{
+	white-space:nowrap;
+}
+#like-container
+{
+}
+#player-author
+{
+	color: #666666;
+	font-size: 10px;
+}
+#player-desc
+{
+	color: #888;
+}
+
+#player-view-count
+{
+	color: #666666;	
+}
+.video-view-count
+{
+	
+	display: block;
+	font-weight: normal;
+	font-size: 10px;
+	color: #666666;
+	
+}
+.spacja
+{
+	height: 1px;
+}
+

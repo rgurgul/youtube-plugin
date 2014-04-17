@@ -1,0 +1,50 @@
+/* Tiny Scrollbar */
+#scrollbar-box {
+	margin: 10px 10px;
+}
+#scrollbar-box .viewport {
+	height: 297px;
+	overflow: hidden;
+	position: relative;
+}
+#scrollbar-box .overview {
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+}
+#scrollbar-box .scrollbar {
+	background: transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+	position: relative;
+	background-position: 0 0;
+	float: right;
+	width: 15px;
+}
+#scrollbar-box .track{
+	background: transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+	height: 100%;
+	width:13px;
+	position: relative;
+	padding: 0 1px;
+}
+#scrollbar-box .thumb {
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+	height: 20px;
+	width: 25px;
+	cursor: pointer;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: -5px;
+}
+#scrollbar-box .thumb .end {
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+	overflow: hidden;
+	height: 5px;
+	width: 25px;
+}
+#scrollbar-box .disable {
+	display: none;
+}

@@ -1,0 +1,49 @@
+.clearboth.btn
+{
+	text-align: center;
+	border-top: 1px solid #eaeaea;
+	height: auto;
+}
+.truncate_more_link.btn
+{
+	cursor: pointer;
+	border: 1px solid grey;
+    border-radius: 0 0 5px 5px;
+    border-width: 0 0 1px;
+    color: #999;
+    text-shadow: 0 0 0 transparent, 0 1px 0 #FFFFFF;
+    padding: 0 7px;
+    text-decoration: none;
+    
+	background-image: linear-gradient(bottom, rgb(224,224,224) 0%, rgb(255,255,255) 58%);
+	background-image: -o-linear-gradient(bottom, rgb(224,224,224) 0%, rgb(255,255,255) 58%);
+	background-image: -moz-linear-gradient(bottom, rgb(224,224,224) 0%, rgb(255,255,255) 58%);
+	background-image: -webkit-linear-gradient(bottom, rgb(224,224,224) 0%, rgb(255,255,255) 58%);
+	background-image: -ms-linear-gradient(bottom, rgb(224,224,224) 0%, rgb(255,255,255) 58%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(224,224,224)),
+		color-stop(0.58, rgb(255,255,255))
+	);    
+}
+.truncate_more_link.btn:hover
+{
+	background-image: linear-gradient(bottom, rgb(217,217,217) 30%, rgb(255,252,255) 70%);
+	background-image: -o-linear-gradient(bottom, rgb(217,217,217) 30%, rgb(255,252,255) 70%);
+	background-image: -moz-linear-gradient(bottom, rgb(217,217,217) 30%, rgb(255,252,255) 70%);
+	background-image: -webkit-linear-gradient(bottom, rgb(217,217,217) 30%, rgb(255,252,255) 70%);
+	background-image: -ms-linear-gradient(bottom, rgb(217,217,217) 30%, rgb(255,252,255) 70%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.3, rgb(217,217,217)),
+		color-stop(0.7, rgb(255,252,255))
+	);
+    text-decoration: none;
+    border-color: #999999;
+}
